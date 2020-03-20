@@ -1,0 +1,6 @@
+## Redux clone
+React + TypeScript
+
+
+
+
