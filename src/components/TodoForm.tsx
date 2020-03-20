@@ -1,6 +1,9 @@
-import React, { Component, ChangeEvent } from "react";
+import React, { Component, ChangeEvent, FormEvent } from "react";
 
-interface TodoFormProps {}
+interface TodoFormProps {
+  handleSubmit: Function
+
+}
 export default class TodoForm extends Component<TodoFormProps> {
   readonly state = {
     name: ""
